@@ -1,0 +1,29 @@
+#container {
+   border: 2px solid orange;
+   width:400px;
+   height:auto;
+   /*border-radius:10px;*/
+   position:relative;
+   margin:0 auto;
+   background-image: url("list.jpg");
+   background-size:cover;
+
+
+
+}
+.list {
+  margin:70px;
+}
+h1  {
+  text-align: center;
+  font-size: 3em;
+  font-family: comic sans ms;
+  color:#D004B7;
+}
+body {
+  background-image: url('image.jpg');
+}
+p {
+  color:#D004B7;
+  font-family: comic sans ms;
+}
