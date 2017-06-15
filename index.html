@@ -15,9 +15,9 @@
     <input type="text" ng-model="item.name" placeholder="item:">
     <input type="number" ng-model="item.cost" placeholder='cost:'>
     <button type="button" ng-click='addItem(item)'>ADD ITEM</button>
-    <input type="text" ng-model="search" placeholder="filter">
+
     <div ng-repeat="item in shoppingList | filter:search track by $index">
-    <p> {{ item.name }} ${{ item.cost }}<button ng-click="removeItem(item)">remove</button></p>
+    <p> this is my {{ item.name }} ${{ item.cost }}<button ng-click="removeItem(item)">remove</button></p>
 
 
 
@@ -27,38 +27,6 @@
 
     </div>
   </div>
-    <!-- <input type="text" ng-model="person"> -->
-
-     <!-- <input type="number"  placeholder ="amountOfSleep" ng-model="amountOfSleep">
-     <input type="text"  placeholder ="adjective" ng-model="adjective">
-     <input type="text"  placeholder = "noun" ng-model="noun">
-     <input type="text"  placeholder ="adjective" ng-model="adjective">
-     <input type="number" placeholder="daysInWeek" ng-model="daysInWeek">
-     <input type ="text" placeholder="!true" ng-model="!true">
-     <p> Last night I got {{amountOfSleep}} hours of sleep on my {{ adjective }} {{ noun }}. And if i did that for {{daysInWeek }} I would get {{daysInWeek * amountOfSleep }} hours a week. So getting a lot of sleep is {{!true}}</p> -->
-     <!-- <div ng-init=" singers =[{name: 'Jack white', genre: 'rock' ,age: 35},
-     {name: 'Michael jackson', genre: 'pop', age: 'rip'},
-     {name: 'Beyonce', genre: 'RNB', age: 33},
-     {name:'Michael buble',genre: 'jazz', age:34}]">
-       <input type="text" ng-model="person">
-     <div ng-repeat="world in singers | filter:name">
-       <h4>{{ world.name | uppercase }}</h4>
-       <p>{{ world.genre | lowercase }}</p>
-       <p>{{ world.age }}</p>
-
-     </div>
-   </div> -->
-
-
-      <!-- <h3>Names of The Beatles</h3>
-      <ul>
-        <li ng-repeat="beatle in beatles">{{beatle}}</li>
-      </ul>
-     </div> -->
-
-
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js">
     </script>
       <script src="script.js"></script>
