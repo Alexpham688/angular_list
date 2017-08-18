@@ -18,28 +18,10 @@
 
      };
      console.log($scope.shoppingList);
-  //  });
+  
 
     $scope.removeItem = function(newItem){
       var index = $scope.shoppingList.indexOf(newItem);
     $scope.shoppingList.splice(index,1);
     }
-    // $scope.total = function(allTotal){
-    //   var total = 0;
-    //   angular.forEach($scope.shoppingList.items, function(item){
-    //     total += item.qty * item.cost;
   });
-    //    return total ;
-
-
-
-
-
-
-
-
-  // #scope.singers =[
-  //  {name: 'Michael jackson', genre: 'pop', age: 'rip'},
-  //  {name: 'Beyonce', genre: 'RNB', age: 33},
-  //  {name:'Michael buble',genre: 'jazz', age:34}]"
-  //    <input type="text" ng-model="person">
